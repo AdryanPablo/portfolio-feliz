@@ -1,0 +1,37 @@
+.link, #button {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-right: 30px;
+    font-family: "Fira Code", monospace;
+    font-size: 20px;
+    color: var(--color-third);
+}
+
+.link::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-first);
+    margin-right: 10px;
+}
+
+.link::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.link:hover::after {
+    content: "";
+    width: calc(100% - 20px);
+    left: 20px;
+    transition: all 0.3s ease-out;
+}
