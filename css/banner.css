@@ -32,15 +32,18 @@
     padding: 0 40px;
 }
 
+h1, h2 {
+    font-family: "Press Start 2P", sans-serif;
+    text-shadow: 4px 4px 0 var(--color-black-first);
+}
+
 h1 {
-    font-family: "Press Start 2P", cursive;
+    margin-bottom: 28px;
     font-size: 40px;
     color: var(--color-first);
-    margin-bottom: 28px;
 }
 
 h2 {
-    font-family: "Press Start 2P", cursive;
     font-size: 30px;
     color: var(--color-third);
 }
