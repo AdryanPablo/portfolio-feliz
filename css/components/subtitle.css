@@ -1,7 +1,6 @@
-h1 {
-    margin-bottom: 28px;
+h2 {
     font-family: "Press Start 2P", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 4px 4px 0 var(--color-black-first);
-    color: var(--color-first);
+    color: var(--color-third);
 }
