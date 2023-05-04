@@ -1,33 +1,5 @@
 #banner {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 807px;
+    height: 800px;
     background: url('../../assets/images/perfil-desenho.png') no-repeat, url('../../assets/images/perfil.png') no-repeat;
     border-bottom: 10px solid var(--color-black-first);
-}
-
-#title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 627px;
-    height: 184px;
-    margin-left: 104px;
-    margin-bottom: 20px;
-    padding: 40px;
-    background-color: var(--color-black-second);
-    box-shadow: 10px 10px 0 var(--color-black-first);
-}
-
-#buttons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 627px;
-    margin-left: 104px;
-    margin-bottom: 50px;
-    padding: 0 40px;
 }
