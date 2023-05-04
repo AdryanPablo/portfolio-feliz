@@ -8,4 +8,7 @@
     --color-error: #BA1F33;
     --color-warning: #CEB02A;
     --color-sucess: #62C370;
+
+    --font-first: "Fira Code", monospace;
+    --font-second: "Press Start 2P", sans-serif;
 }

@@ -1,14 +1,13 @@
-.link, #button {
+.action {
     display: inline-flex;
     align-items: center;
     position: relative;
     margin-right: 30px;
-    font-family: "Fira Code", monospace;
     font-size: 20px;
     color: var(--color-third);
 }
 
-.link::before {
+.action::before {
     content: "";
     display: inline-block;
     width: 10px;
@@ -17,7 +16,7 @@
     margin-right: 10px;
 }
 
-.link::after {
+.action::after {
     content: "";
     display: inline-block;
     width: 0;
@@ -29,7 +28,7 @@
     border-radius: 3px;
 }
 
-.link:hover::after {
+.action:hover::after {
     content: "";
     width: calc(100% - 20px);
     left: 20px;

@@ -1,4 +1,4 @@
-#banner {
+.banner {
     height: 800px;
     background: url('../../assets/images/perfil-desenho.png') no-repeat, url('../../assets/images/perfil.png') no-repeat;
     border-bottom: 10px solid var(--color-black-first);

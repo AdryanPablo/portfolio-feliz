@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     border: none;
-    opacity: 1;
+    font-family: inherit;
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+body {
+    font-family: var(--font-first);
 }
