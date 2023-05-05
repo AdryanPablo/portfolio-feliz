@@ -13,11 +13,22 @@
     text-shadow: none;
 }
 
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 480px;
+    margin: auto;
+    padding-top: 150px;
+}
+
 .skill {
     display: flex;
     justify-content: space-between;
     width: 430px;
     height: 90px;
+    margin-bottom: 40px;
 }
 
 .skill-logo {
