@@ -1,5 +1,25 @@
 .banner {
     height: 800px;
-    background: url('../../assets/images/perfil-desenho.png') no-repeat, url('../../assets/images/perfil.png') no-repeat;
+    padding-top: 400px;
+    padding-left: 90px;
+    background-image: url('../../assets/images/perfil.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     border-bottom: 10px solid var(--color-black-first);
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
 }
