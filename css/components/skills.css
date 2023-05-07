@@ -1,18 +1,3 @@
-.skills {
-    height: 800px;
-    background-color: var(--color-first);
-    border-bottom: 10px solid var(--color-second);
-}
-
-.skills .title {
-    padding-top: 50px;
-    font-family: var(--font-second);
-    font-size: 40px;
-    color: var(--color-third);
-    text-align: center;
-    text-shadow: none;
-}
-
 .skill-list {
     display: flex;
     justify-content: space-around;
