@@ -1,31 +1,49 @@
-.section {
+.content-section {
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-.section.-skills {
+.content-section.-skills {
     height: 700px;
     background-color: var(--color-first);
     border-bottom: 10px solid var(--color-black-first);
 }
 
-.section.-languages {
+.skills-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 480px;
+    margin: auto;
+}
+
+.content-section.-languages {
     height: 400px;
     background-color: var(--color-second);
     border-bottom: 10px solid var(--color-third); 
 }
 
-.section.-projects {
+.languages-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 480px;
+    margin: auto;
+}
+
+.content-section.-projects {
     height: 600px;
     background-color: var(--color-black-first);
     border-bottom: 10px solid var(--color-first); 
 }
 
-.wrapper-projects {
+.projects-wrapper {
     display: flex;
     justify-content: space-evenly;
 }
 
-.section .main-title.-second {
+.content-section .main-title.-second {
     margin-bottom: 100px;
 }

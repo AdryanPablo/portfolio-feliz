@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Feliz</title>
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -14,86 +14,87 @@
     <link rel="stylesheet" href="./css/variables.css">
     
     <link rel="stylesheet" href="./css/components/header.css">
-    <link rel="stylesheet" href="./css/components/banner.css">
-    <link rel="stylesheet" href="./css/components/section.css">
-    <link rel="stylesheet" href="./css/components/logo.css">
-    <link rel="stylesheet" href="./css/components/action.css">
-    <link rel="stylesheet" href="./css/components/button.css">
-    <link rel="stylesheet" href="./css/components/box.css">
+    <link rel="stylesheet" href="./css/components/profile-logo.css">
+    <link rel="stylesheet" href="./css/components/action-link.css">
+    <link rel="stylesheet" href="./css/components/action-button.css">
+
+    <link rel="stylesheet" href="./css/components/profile-banner.css">
+    <link rel="stylesheet" href="./css/components/box-title.css">
     <link rel="stylesheet" href="./css/components/main-title.css">
-    <link rel="stylesheet" href="./css/components/subtitle.css">
-    <link rel="stylesheet" href="./css/components/skill.css">
+    <link rel="stylesheet" href="./css/components/main-subtitle.css">
+
+    <link rel="stylesheet" href="./css/components/content-section.css">
+    <link rel="stylesheet" href="./css/components/technology-skill.css">
+    <link rel="stylesheet" href="./css/components/language-skill.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <link rel="stylesheet" href="./css/components/card-project.css">
-
 </head>
 <body>
-
     <header class="header">
-        <img src="./assets/images/logo.png" alt="Ádryan Pablo" class="logo">
+        <img src="./assets/images/logo.png" alt="Ádryan Pablo" class="profile-logo">
         <nav class="menu">            
-            <a href="" class="action" lang="en">Skills</a>
-            <a href="" class="action">Projetos</a>
-            <a href="" class="action">Sobre</a>
-            <a href="" class="action">Contatos</a>
-            <a href="" class="button" lang="en">Download CV</a>
+            <a href="" class="action-link" lang="en">Skills</a>
+            <a href="" class="action-link">Projetos</a>
+            <a href="" class="action-link">Sobre</a>
+            <a href="" class="action-link">Contatos</a>
+            <a href="" class="action-button" lang="en">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
+    <section class="profile-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="box-title">
                 <h1 class="main-title">Ádryan Pablo</h1>
-                <h2 class="subtitle">Web Developer</h2>
+                <h2 class="main-subtitle">Web Developer</h2>
             </div>
 
             <div class="navigation">
-                <a class="button" lang="en">Download CV</a>
-                <a class="button">Contatos</a>
+                <a class="action-button" lang="en">Download CV</a>
+                <a class="action-button">Contatos</a>
             </div>
         </div>        
     </section>
 
-    <section class="section -skills">
+    <section class="content-section -skills">
         <h2 class="main-title -second" lang="en">Skills</h2>
 
-        <div class="skill-list">
-            <article class="skill">
+        <div class="skills-wrapper">
+            <article class="technology-skill">
                 <img src="./assets/images/ico_html5.png" alt="Ícone HTML5 em Pixel Art" class="icon">
                 <div class="right">
                     <h3 class="title">HTML</h3>
                     <progress class="progress-bar" max="100" value="80">80%</progress>
                 </div>
             </article>
-            <article class="skill">
+            <article class="technology-skill">
                 <img src="./assets/images/ico_css3.png" alt="Ícone CSS3 em Pixel Art" class="icon">
                 <div class="right">
                     <h3 class="title">CSS</h3>
                     <progress class="progress-bar" max="100" value="80">80%</progress>
                 </div>
             </article>
-            <article class="skill">
+            <article class="technology-skill">
                 <img src="./assets/images/ico_js.png" alt="Ícone Javascript em Pixel Art" class="icon">
                 <div class="right">
                     <h3 class="title">Javascript</h3>
                     <progress class="progress-bar" max="100" value="70">70%</progress>
                 </div>
             </article>
-            <article class="skill">
+            <article class="technology-skill">
                 <img src="./assets/images/ico_php.png" alt="Ícone PHP" class="icon">
                 <div class="right">
                     <h3 class="title">PHP</h3>
                     <progress class="progress-bar" max="100" value="40">40%</progress>
                 </div>
             </article>
-            <article class="skill">
+            <article class="technology-skill">
                 <img src="./assets/images/ico_react.png" alt="Ícone Reactjs em Pixel Art" class="icon">
                 <div class="right">
                     <h3 class="title">Reactjs</h3>
                     <progress class="progress-bar" max="100" value="30">30%</progress>
                 </div>
             </article>
-            <article class="skill">
+            <article class="technology-skill">
                 <img src="./assets/images/ico_nodejs.png" alt="Ícone Nodejs em Pixel Art" class="icon">
                 <div class="right">
                     <h3 class="title">Nodejs</h3>
@@ -103,18 +104,18 @@
         </div>
     </section>
 
-    <section class="section -languages">
+    <section class="content-section -languages">
         <h2 class="main-title -second">Languages</h2>
 
-        <div class="skill-list">
-            <article class="skill">
+        <div class="languages-wrapper">
+            <article class="language-skill">
                 <img src="./assets/images/english.png" alt="Bandeira do Reino Unido Arredondada" class="icon">
                 <div class="right">
                     <h3 class="title">Inglês</h3>
                     <progress class="progress-bar -fluency" max="100" value="90">90%</progress>
                 </div>
             </article>
-            <article class="skill">
+            <article class="language-skill">
                 <img src="./assets/images/french.png" alt="Bandeira da França Arredondada" class="icon">
                 <div class="right">
                     <h3 class="title">Francês</h3>
@@ -124,10 +125,10 @@
         </div>
     </section>
 
-    <section class="section -projects">
+    <section class="content-section -projects">
         <h2 class="main-title -second">Projetos</h2>
 
-        <div class="wrapper-projects">
+        <div class="projects-wrapper">
             <article class="card-project"></article>
             <article class="card-project"></article>
             <article class="card-project"></article>

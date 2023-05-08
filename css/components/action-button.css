@@ -1,4 +1,4 @@
-.button {
+.action-button {
     display: inline-block;
     height: 60px;
     padding: 0 20px;
@@ -11,7 +11,7 @@
     transition: all 0.3s;
 }
 
-.button:hover {
+.action-button:hover {
     transform: scale(1.05);
     box-shadow: 5px 5px 2px var(--color-black-first);
     text-shadow: 2px 2px 0 var(--color-black-first);

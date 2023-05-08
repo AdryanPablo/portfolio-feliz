@@ -1,0 +1,33 @@
+.technology-skill {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 90px;
+}
+
+.technology-skill:nth-child(odd) {
+    margin-right: 100px;    
+}
+
+.technology-skill .icon {
+    width: 90px;
+    height: 90px;
+    transition: transform 0.3s;
+}
+
+.technology-skill .icon:hover {
+    transform: scale(1.05);
+}
+
+.technology-skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.technology-skill .title {
+    margin-bottom: 16px;
+    font-family: var(--font-second);
+    font-size: 25px;
+    color: var(--color-third);
+}

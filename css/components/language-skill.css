@@ -1,40 +1,31 @@
-.skill-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 960px;
-    height: 480px;
-    margin: auto;
-}
-
-.skill {
+.language-skill {
     display: flex;
     justify-content: space-between;
     width: 430px;
     height: 90px;
 }
 
-.skill:nth-child(odd) {
+.language-skill:nth-child(odd) {
     margin-right: 100px;    
 }
 
-.skill .icon {
+.language-skill .icon {
     width: 90px;
     height: 90px;
     transition: transform 0.3s;
 }
 
-.skill .icon:hover {
+.language-skill .icon:hover {
     transform: scale(1.05);
 }
 
-.skill .right {
+.language-skill .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.skill .title {
+.language-skill .title {
     margin-bottom: 16px;
     font-family: var(--font-second);
     font-size: 25px;

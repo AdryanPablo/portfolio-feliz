@@ -1,4 +1,4 @@
-.banner {
+.profile-banner {
     height: 800px;
     padding-top: 400px;
     padding-left: 90px;
@@ -9,17 +9,17 @@
     border-bottom: 10px solid var(--color-black-first);
 }
 
-.banner .wrapper {
+.profile-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 630px;
 }
 
-.banner .box {
+.profile-banner .box-title {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.profile-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
