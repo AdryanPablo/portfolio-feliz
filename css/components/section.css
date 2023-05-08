@@ -14,3 +14,18 @@
     background-color: var(--color-second);
     border-bottom: 10px solid var(--color-third); 
 }
+
+.section.-projects {
+    height: 600px;
+    background-color: var(--color-black-first);
+    border-bottom: 10px solid var(--color-first); 
+}
+
+.wrapper-projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section .main-title.-second {
+    margin-bottom: 100px;
+}

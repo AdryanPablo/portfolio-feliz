@@ -1,0 +1,6 @@
+.card-project {
+    width: 280px;
+    height: 280px;
+    background-color: var(--color-first);
+    box-shadow: 10px 10px 0 var(--color-third);
+}
