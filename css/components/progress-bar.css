@@ -21,7 +21,6 @@
 .progress-bar.-fluency::-webkit-progress-value {
     background-color: var(--color-first);
 }
-
 .progress-bar.-fluency::-moz-progress-value {
     background-color: var(--color-first);
 }

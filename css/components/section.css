@@ -4,7 +4,7 @@
 }
 
 .section.-skills {
-    height: 800px;
+    height: 700px;
     background-color: var(--color-first);
     border-bottom: 10px solid var(--color-black-first);
 }
