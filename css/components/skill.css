@@ -16,26 +16,20 @@
     margin-bottom: 40px;
 }
 
-.skill-logo {
+.skill .icon {
     width: 90px;
     height: 90px;
 }
 
-.skill-wrapper {
+.skill .right {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-.skill-name {
+.skill .title {
     margin-bottom: 16px;
     font-family: var(--font-second);
     font-size: 25px;
     color: var(--color-third);
-}
-
-.skill-level {
-    width: 320px;
-    height: 40px;
-    background-color: var(--color-second);
-    border: 5px solid var(--color-black-first);
 }
