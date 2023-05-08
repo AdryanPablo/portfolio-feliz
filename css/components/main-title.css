@@ -1,4 +1,4 @@
-.title {
+.main-title {
     margin-bottom: 28px;
     font-family: var(--font-second);
     font-size: 40px;
@@ -6,7 +6,7 @@
     color: var(--color-first);
 }
 
-.title._second {
+.main-title.-second {
     color: var(--color-third);
     text-shadow: none;
     text-align: center;
