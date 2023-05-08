@@ -5,7 +5,7 @@
     width: 960px;
     height: 480px;
     margin: auto;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .skill {
@@ -19,6 +19,11 @@
 .skill .icon {
     width: 90px;
     height: 90px;
+    transition: transform 0.3s;
+}
+
+.skill .icon:hover {
+    transform: scale(1.05);
 }
 
 .skill .right {

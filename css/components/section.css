@@ -1,7 +1,16 @@
 .section {
-    height: 800px;
     padding-top: 50px;
     padding-bottom: 100px;
+}
+
+.section.-skills {
+    height: 800px;
     background-color: var(--color-first);
-    border-bottom: 10px solid var(--color-second);
+    border-bottom: 10px solid var(--color-black-first);
+}
+
+.section.-languages {
+    height: 400px;
+    background-color: var(--color-second);
+    border-bottom: 10px solid var(--color-third); 
 }
