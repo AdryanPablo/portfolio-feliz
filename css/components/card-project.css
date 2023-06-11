@@ -1,6 +1,27 @@
 .card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 280px;
     height: 280px;
+}
+
+.card-project img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-project.-first {
     background-color: var(--color-first);
+    box-shadow: 10px 10px 0 var(--color-third);
+}
+
+.card-project.-second {
+    background-color: var(--color-third);
+    box-shadow: 10px 10px 0 var(--color-second);
+}
+
+.card-project.-third {
+    background-color: var(--color-second);
     box-shadow: 10px 10px 0 var(--color-third);
 }
