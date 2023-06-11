@@ -44,6 +44,12 @@
     justify-content: space-evenly;
 }
 
+.content-section.-about {
+    height: 400px;
+    background-color: var(--color-second);
+    border-bottom: 10px solid var(--color-black-first);
+}
+
 .content-section .main-title.-second {
     margin-bottom: 100px;
 }
