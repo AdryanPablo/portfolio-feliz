@@ -53,3 +53,7 @@
 .content-section .main-title.-second {
     margin-bottom: 100px;
 }
+
+.content-section.-contacts {
+    background-color: var(--color-black-second);
+}

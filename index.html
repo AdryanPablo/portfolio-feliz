@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <link rel="stylesheet" href="./css/components/card-project.css">
     <link rel="stylesheet" href="./css/components/text-description.css">
+    <link rel="stylesheet" href="./css/components/contact-form.css">
     <link rel="stylesheet" href="./css/components/main-footer.css">
 </head>
 <body>
@@ -162,10 +163,13 @@
         <h2 class="main-title -second">Contatos</h2>
 
         <form action="" class="contact-form">
-            <input type="text" id="name">
-            <input type="email" id="email">
-            <input type="text" id="message">
-            <button type="submit">Enviar</button>
+            <label class="label" for="name">Nome:</label>
+            <input class="data" type="text" id="name">
+            <label class="label" for="email">Email:</label>
+            <input class="data" type="email" id="email">
+            <label class="label" for="message">Mensagem:</label>
+            <input class="data" type="text" id="message">
+            <input class="submit-button" type="button" value="Enviar">
         </form>
     </section>
 
@@ -174,5 +178,7 @@
             <img src="./assets/images/github.png" alt="Github">
         </a>
     </footer>
+
+    <script src="./js/contact-form.js"></script>
 </body>
 </html>
