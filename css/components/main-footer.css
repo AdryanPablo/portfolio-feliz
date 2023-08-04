@@ -1,0 +1,12 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black-first);
+    padding: 10px;
+}
+
+.main-footer .action img {
+    width: 40px;    
+    height: 40px;
+    filter: invert(1);
+}
