@@ -1,0 +1,9 @@
+.close-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    color: var(--color-third);
+    text-decoration: none;
+}
