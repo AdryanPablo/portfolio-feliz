@@ -4,39 +4,3 @@
     align-items: baseline;
     width: 100%;
 }
-
-.contact-form .data {
-    width: 90%;
-    height: 50px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    border: 5px solid var(--color-black-first);
-    font-size: 20px;
-}
-
-.contact-form .data#message {
-    height: 320px
-}
-
-.contact-form .label {
-    margin-left: 40px;
-    text-align: left;
-    color: var(--color-third);
-    font-size: 20px;
-}
-
-.contact-form .submit-button {
-    width: 90%;
-    height: 50px;
-    margin: 10px;
-    background-color: var(--color-first);
-    box-shadow: 5px 5px 0 var(--color-black-first);
-    color: var(--color-third);
-    font-size: 20px;
-    transition: transform 0.2s;
-}
-
-.contact-form .submit-button:hover {
-    transform: scale(1.02);
-    cursor: pointer;
-}
