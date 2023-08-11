@@ -1,6 +1,6 @@
 .main-label {
-    margin-left: 40px;
     text-align: left;
     color: var(--color-third);
     font-size: 20px;
+    line-height: 2;
 }
